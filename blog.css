@@ -1,0 +1,258 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    font-family: "Raleway", sans-serif;
+}
+.header
+{
+    text-align: center;
+    margin: 40px;
+}
+
+.header h2
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.header p
+{
+    padding: 20px;
+}
+
+.header p span
+{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.left-part
+{
+    float: left;
+    position: relative;
+    left: 20px;
+    
+}
+/*for first left box design*/
+.left-1
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+.left-1 img
+{
+    width: 700px;
+    height: 300px;
+}
+
+.left-1 h2
+{
+    padding-left: 15px;
+}
+#small
+{
+    font-size: 13px;
+}
+.left-1 p
+{
+    font-family: 'Luxurious Roman', cursive;
+    padding-left: 15px;
+}
+
+.left-1 p .date
+{
+    font-family: 'Amatic SC', cursive;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.85;
+}
+
+.article p
+{
+    max-width: 685px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.left-1 .button
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 13px 14px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.left-1 p.comment
+{
+    font-family: 'Merienda', cursive;
+    position: absolute;
+    right: 25px;
+    bottom: 616px;
+}
+
+.left-1 p.comment .sub-comment
+{
+    color: white;
+    background-color: black;
+    font-family: 'Merienda', cursive;
+    padding: 1px 7px;
+}
+/* THE END ! !-*/
+/*for second left box design*/
+
+.left-2
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.left-2 img
+{
+    
+    width: 700px;
+    height: 300px;
+}
+
+.left-2 h2
+{
+    padding-left: 15px;
+}
+
+#small-13
+{
+    font-size: 13px;
+}
+.left-2 p
+{
+    font-family: 'Luxurious Roman', cursive;
+    padding-left: 15px;
+}
+
+.left-2 p .date-2
+{
+    font-family: 'Amatic SC', cursive;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;   
+    opacity: 0.85;
+}
+
+.article-2 p
+{
+    max-width: 685px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.left-2 .button-2
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 13px 14px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.left-2 .comment-2
+{
+    font-family: 'Merienda', cursive;
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+}
+
+.left-2 .comment-2 .sub-comment-2
+{
+    color: white;
+    background-color: black;
+    font-family: 'Merienda', cursive;
+    padding: 1px 7px;
+    border-radius: 20px;
+}
+
+/* now for right part*/
+.right-part
+{
+    display: flex;
+    margin-left: 760px;
+}
+/* for first part right-1*/
+.right-1
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-1 img
+{
+    width: 400px;
+    max-width:500px;
+    max-height: 270px;
+}
+
+.right-1 h2
+{
+    padding-left: 15px;
+}
+
+.right-1 .quotes
+{
+    font-family: 'Luxurious Roman', cursive;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-size: 13px;
+}
+
+.right-1 .article-3
+{
+    font-family: 'Luxurious Roman', cursive;
+    padding-left: 15px;
+    margin-top: 13px;
+    max-width: 380px;
+}
+
+/* for second part right-2*/
+
+.right-2
+{
+    display: flex;
+    margin-left: 772px;
+    margin-top: 20px;
+    max-width: 400px;
+
+}
+
+.right-2 h3
+{
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+    background-color: whitesmoke;
+    width: 400px;
+    padding-left: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
